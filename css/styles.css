@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    font-family: 'Barlow Condensed', ;
+    font-size: 18px;
+}
+
+.logo img{
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu button{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-width: 0;
+    margin-top: -35px;
+    margin-right: 20px;
+}
+.containt{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: white;
+}
+.containt li{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.containt li:hover{
+    background-color: #ddd;
+
+}
+.menu:hover .containt{
+    display: block;
+}
+.menu:hover .menubar{
+    background-color:white;
+}
+
+.image{
+    overflow: hidden;
+}
+.image img{
+    margin-top: 2rem;
+    object-fit: cover;
+    object-position: -12px 0px;
+    width: 100%;
+    height: 260px;
+
+
+}
+.but{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+.but button{
+
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    width: 35px;
+    border-radius: 6px;
+    border: none;
+}
+.but h6{
+    color:hsl(231, 7%, 65%); 
+    margin-right:45px;
+    letter-spacing: 2px;
+    
+    
+}
+.para h2{
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.para h5{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: hsl(231, 7%, 65%);
+}
+.para button{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 20px;
+    width: 90px;
+    font-size: 7px;
+    color: white;
+    background-color: hsl(0, 100%, 68%);
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+.para h6{
+float: right;
+margin-top: 15px;
+color: hsl(231, 7%, 65%);
+margin-right:45px;
+letter-spacing: 2px;
+margin-bottom: 20px;
+
+}
+
+
+
+
