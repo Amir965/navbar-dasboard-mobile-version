@@ -4,7 +4,7 @@
 
 }
 html{
-    font-family: 'Barlow Condensed', ;
+    font-family: 'Barlow Condensed' ;
     font-size: 18px;
 }
 
@@ -63,10 +63,11 @@ html{
 .but{
     display: flex;
     margin-top: 3rem;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .but button{
-
+    /* float: left; */
+    /* margin-top: 0.1rem; */
     margin-left: 20px;
     background-color: black;
     color: white;
@@ -75,8 +76,9 @@ html{
     border: none;
 }
 .but h6{
+    /* margin-top: 3.1rem; */
     color:hsl(231, 7%, 65%); 
-    margin-right:45px;
+    margin-right:60px;
     letter-spacing: 2px;
     
     
@@ -92,6 +94,7 @@ html{
     color: hsl(231, 7%, 65%);
 }
 .para button{
+    float: left;
     margin-top: 10px;
     margin-left: 20px;
     height: 20px;
@@ -104,7 +107,7 @@ html{
     margin-bottom: 20px;
 }
 .para h6{
-float: right;
+/* float: right; */
 margin-top: 15px;
 color: hsl(231, 7%, 65%);
 margin-right:45px;
