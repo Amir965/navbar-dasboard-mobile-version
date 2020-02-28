@@ -107,10 +107,9 @@ html{
     margin-bottom: 20px;
 }
 .para h6{
-    float: right;
 margin-top: 15px;
 color: hsl(231, 7%, 65%);
-margin-right:80px;
+margin-right: 40px;
 letter-spacing: 2px;
 margin-bottom: 20px;
 
